@@ -1,0 +1,52 @@
+form{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+    width: 50%;
+
+}
+
+label{
+    color: wheat ;
+}
+
+.btn1{
+    background-color:  #b94517   ;
+    border: 1px solid  #b94517 ;
+    width: 8rem;
+    border-radius: 4px;
+    color: white;
+    height: 3rem;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 3%;
+
+}
+.btn1 :active{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+}
+.form-input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    background-color:black}
+
+    .invalid{
+      
+        border: 2px solid #b40e0e;
+  background-color: #fddddd;
+  color: black;
+      
+    }
+
+    button:disabled:hover{
+        cursor: not-allowed;
+        border: 2px solid #fddddd;
+        background-color: #fddddd ;
+        color: black;
+               
+    }

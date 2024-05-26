@@ -1,0 +1,79 @@
+#nav {
+    display: flex;
+    background-color:rgb(12, 12, 12);
+    padding: 20px;
+  }
+
+  h3{
+    margin-left: 10%;
+    color: white;
+  
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .links a {
+ /* Default link color */
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+ 
+  .nav-link{
+    margin-left: 2rem;
+    color: white;
+  }
+  .nav-link-cred-1{
+    position: absolute;
+    left: 80%;
+    text-align: center;
+    width: 5rem;
+    height: 3rem;
+    padding-top: 1%;
+    background-color: wheat ;
+    color: black;
+    border-radius: 2px;
+    border: 1px sold black;
+
+  }
+  .nav-link-cred-2{
+    position: absolute;
+    left: 87%;
+    text-align: center;
+    width: 5rem;
+    padding-top: 1%;
+    height: 3rem;
+    background-color: wheat ;
+    color: black;
+    border-radius: 2px;
+    border: 1px sold black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .nav-link-cred-1:active{
+         background-color: black;
+         color: whie;
+         border: 1px solid black;
+  }
+  
+  .nav-link-cred-1:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+  .nav-link-cred-2:active{
+    background-color:black   ;
+    color: white;
+    width: 6rem;
+    
+  }
+  .nav-link-cred-2:hover{
+    background-color:black   ;
+    color: white;
+    width: 6rem;
+    
+  }

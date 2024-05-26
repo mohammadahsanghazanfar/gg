@@ -1,0 +1,29 @@
+.rightarrow{
+
+    height: 4rem;
+    display: inline;
+    z-index: 10;
+    border-radius: 16px;
+    position: absolute;
+    top: 45%;
+    left: 89%;
+    
+ }
+ .rightarrow button{
+    border-radius: 32px;
+    
+    
+    width: 0.01rem;
+    height: 0.01rem;
+
+   
+ }
+
+ img{
+    height: 3rem;
+    border-radius: 16px;
+ }
+ .on-white2{
+   color: white;
+   transform: scale(3);
+ }
